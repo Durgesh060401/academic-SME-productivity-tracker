@@ -31,9 +31,15 @@ Academic content teams need to balance **quantity, quality, speed, and reliabili
 
 A simple productivity measure such as:
 
-[
-Productivity = \frac{Tasks\ Completed}{Tasks\ Assigned}
-]
+<p>$$
+\boxed{
+\text{Overall Productivity}
+=
+\frac{\text{Tasks Completed}}
+{\text{Tasks Assigned}} * \frac{\text{Accurate Items}}
+{\text{Items Audited}}
+}
+$$
 
 does not capture the complete performance of an SME.
 
@@ -131,12 +137,15 @@ The calculated KPI columns are derived from these input variables.
 
 Task Completion Rate measures how much of the assigned workload was completed.
 
-[
+<p> $$
 \boxed{
-Completion\ Rate =
-\frac{Tasks\ Completed}{Tasks\ Planned}
+\text{Completion Rate}
+=
+\frac{\text{Tasks Completed}}
+{\text{Tasks Planned}}
+\times 100
 }
-]
+$$
 
 ### Example
 
@@ -147,25 +156,25 @@ If:
 
 Then:
 
-[
+$$
 Completion\ Rate =
 \frac{41}{48}
 =0.8542
-]
+$$
 
 Therefore:
 
-[
-\boxed{Completion\ Rate = 85.4%}
-]
+$$
+\text{Completion Rate} = 85.4\%
+$$
 
 A value above 100% indicates that the SME completed more tasks than originally planned.
 
 For example:
 
-[
-\frac{56}{52}=107.7%
-]
+$$
+\frac{56}{52}\times 100 = 107.7\%
+$$
 
 means the SME completed approximately 7.7% more than the planned workload.
 
@@ -177,21 +186,21 @@ Quality Score measures the quality of the SME's output based on the organization
 
 The quality score can be represented as:
 
-[
-\boxed{
-Quality\ Score =
-\frac{Quality\ Points\ Obtained}{Maximum\ Quality\ Points}
+<P>$$
+\text{Quality Score}
+=
+\frac{\text{Quality Points Obtained}}
+{\text{Maximum Quality Points}}
 \times 100
-}
-]
+$$
 
 ### Example
 
 If an SME obtains 92.3 quality points out of 100:
 
-[
+$$
 Quality\ Score = 92.3%
-]
+$$
 
 Quality is given a relatively high weight in the overall KPI because academic content must maintain a high standard even when productivity is high.
 
@@ -201,13 +210,15 @@ Quality is given a relatively high weight in the overall KPI because academic co
 
 Accuracy Rate measures the proportion of audited items that are accurate.
 
-[
-\boxed{
-Accuracy\ Rate =
-\frac{Accurate\ Items}{Items\ Audited}
-}
-]
-
+<p>
+$$
+\text{Accuracy Rate}
+=
+\frac{\text{Accurate Items}}
+{\text{Items Audited}}
+\times 100
+$$
+</p>
 ### Example
 
 Suppose:
@@ -217,17 +228,21 @@ Suppose:
 
 Then:
 
-[
-Accuracy\ Rate =
+<p>$$
+\text{Accuracy Rate}
+=
 \frac{30}{33}
-=0.9091
-]
+=
+0.9091
+$$
 
 Therefore:
 
-[
-\boxed{Accuracy\ Rate = 90.9%}
-]
+<p>
+
+$$
+\text{Accuracy Rate} = 90.9\%
+$$
 
 Accuracy is particularly important for academic SMEs because high output with incorrect content can negatively affect students and the organization.
 
@@ -237,12 +252,13 @@ Accuracy is particularly important for academic SMEs because high output with in
 
 Rework Rate measures the proportion of audited items that require correction or modification.
 
-[
-\boxed{
-Rework\ Rate =
-\frac{Rework\ Items}{Items\ Audited}
-}
-]
+<p>$$
+\text{Rework Rate}
+=
+\frac{\text{Rework Items}}
+{\text{Items Audited}}
+\times 100
+$$
 
 ### Example
 
@@ -253,17 +269,22 @@ If:
 
 Then:
 
-[
-Rework\ Rate =
+<p>$$
+\text{Rework Rate}
+=
 \frac{2}{33}
-=0.0606
-]
+\times 100
+=
+6.1\%
+$$
 
 Therefore:
 
-[
-\boxed{Rework\ Rate = 6.1%}
-]
+Therefore:
+
+<p>$$
+\text{Rework Rate} = 6.1\%
+$$
 
 Unlike most KPIs, **lower rework is better**.
 
@@ -275,27 +296,28 @@ A lower rework rate indicates that the SME is producing more accurate work initi
 
 Turnaround Time measures the time required to complete an assigned task.
 
-[
-\boxed{
-TAT =
-Completion\ Time - Start\ Time
-}
-]
+<p>$$
+\text{TAT}
+=
+\text{Completion Time}
+-
+\text{Start Time}
+$$
 
 For example, if work starts at 10:00 AM and is completed at 1:30 PM:
 
-[
-TAT = 3.5\ hours
-]
+<p>$$
+\text{TAT} = 3.5\text{ hours}
+$$
 
 For multiple tasks, average TAT can be calculated as:
 
-[
-\boxed{
-Average\ TAT =
-\frac{\sum TAT_i}{Number\ of\ Tasks}
-}
-]
+<p>$$
+\text{Average TAT}
+=
+\frac{\sum_{i=1}^{n}\text{TAT}_i}
+{n}
+$$
 
 ### Example
 
@@ -308,11 +330,13 @@ Suppose four tasks have TATs of:
 
 Then:
 
-[
-Average\ TAT =
+<p>$$
+\text{Average TAT}
+=
 \frac{2+3+4+3}{4}
-=3\ hours
-]
+=
+3\text{ hours}
+$$
 
 A lower TAT generally indicates greater operational efficiency, provided that quality is maintained.
 
@@ -322,12 +346,12 @@ A lower TAT generally indicates greater operational efficiency, provided that qu
 
 On-Time Completion Rate measures the proportion of due tasks completed within the required deadline.
 
-[
-\boxed{
-On-Time\ Rate =
-\frac{On-Time\ Items}{Total\ Due\ Items}
-}
-]
+<p>$$
+\text{On-Time Rate}
+=
+\frac{\text{On-Time Items}}
+{\text{Total Due Items}}
+$$
 
 ### Example
 
@@ -338,18 +362,21 @@ If:
 
 Then:
 
-[
-On-Time\ Rate =
+<p>$$
+\text{On-Time Rate}
+=
 \frac{41}{48}
-=85.4%
-]
+\times 100
+=
+85.4\%
+$$
 
 Therefore:
 
-[
-\boxed{On-Time\ Rate = 85.4%}
-]
-
+<p>$$
+\text{On-Time Rate} = 85.4\%
+$$
+       
 This KPI captures reliability and deadline adherence.
 
 ---
@@ -372,9 +399,9 @@ Productive hours are used as an efficiency and capacity indicator.
 
 For example:
 
-[
-Productive\ Hours = 7.4\ hours/day
-]
+<p>$$
+\text{Productive Hours} = 7.4\text{ hours/day}
+$$
 
 However, productive hours should not be evaluated independently. A high number of hours with low output or poor quality does not necessarily indicate high productivity.
 
@@ -438,34 +465,41 @@ The overall KPI score combines the individual KPI performances using the predefi
 
 The conceptual structure is:
 
-[
-Overall\ KPI =
-C_wC_s+
-Q_wQ_s+
-O_wO_s+
-A_wA_s+
-H_wH_s+
+<p>$$
+\text{Overall KPI}
+=
+C_wC_s
++
+Q_wQ_s
++
+O_wO_s
++
+A_wA_s
++
+H_wH_s
++
 R_wR_s
-]
+$$
 
 where:
 
-* (C_s) = Completion performance
-* (Q_s) = Quality performance
-* (O_s) = On-Time performance
-* (A_s) = Accuracy performance
-* (H_s) = Productive Hours performance
-* (R_s) = Rework performance
-* (C_w,Q_w,O_w,A_w,H_w,R_w) = corresponding weights
+* $C_s$ = Completion performance
+* $Q_s$ = Quality performance
+* $O_s$ = On-Time performance
+* $A_s$ = Accuracy performance
+* $H_s$ = Productive Hours performance
+* $R_s$ = Rework performance
+* $C_w, Q_w, O_w, A_w, H_w, R_w$ = Corresponding weights
 
 The KPI components are compared against their respective targets.
 
 For example, if the completion target is 90% and the SME achieves 85%:
 
-[
-Completion\ Performance =
-\frac{85%}{90%}
-]
+<p>$$
+\text{Completion Performance}
+=
+\frac{85\%}{90\%}
+$$
 
 The score is capped at the target-equivalent maximum for the corresponding component so that extreme over-performance in one metric does not completely dominate the overall score.
 
@@ -491,11 +525,17 @@ However, for academic content, accuracy and quality are essential.
 
 The weighted KPI framework therefore attempts to balance:
 
-[
-\boxed{
-Quantity + Quality + Accuracy + Speed + Reliability
-}
-]
+<p>$$
+\text{Quantity}
++
+\text{Quality}
++
+\text{Accuracy}
++
+\text{Speed}
++
+\text{Reliability}
+$$
 
 This creates a more comprehensive performance assessment.
 
@@ -709,17 +749,23 @@ The tracker can help academic content organizations:
 
 The project does not treat productivity as simply:
 
-[
+<p>$$
 \text{Number of Tasks Completed}
-]
+$$
 
 Instead, it recognizes that effective SME performance requires a balance between:
 
-[
-\boxed{
-Productivity,\ Quality,\ Accuracy,\ Timeliness,\ Efficiency
-}
-]
+<p>$$
+\text{Productivity}
++
+\text{Quality}
++
+\text{Accuracy}
++
+\text{Timeliness}
++
+\text{Efficiency}
+$$
 
 This prevents excessive emphasis on output volume at the expense of academic content quality.
 
